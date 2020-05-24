@@ -12,8 +12,8 @@ export default () => (
           checked={theme === 'dark'}
         />{' '}
         <div className="mode-container">
-          <i className="gg-sun"></i>
-          <i className="gg-moon"></i>
+          <i className="gg-sun"/>
+          <i className="gg-moon"/>
         </div>
       </label>
     )}
