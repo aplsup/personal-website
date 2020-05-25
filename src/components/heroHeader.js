@@ -1,5 +1,5 @@
-import React from "react"
-import { StaticQuery, graphql } from "gatsby"
+import React from "react";
+import { StaticQuery, graphql } from "gatsby";
 export default () => (
   <StaticQuery
     query={graphql`
@@ -19,9 +19,11 @@ export default () => (
         <div className="headline">{data.site.siteMetadata.home.title}</div>
         <div
           className="primary-content"
-          dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.home.description}}
+          dangerouslySetInnerHTML={{
+            __html: data.site.siteMetadata.home.description
+          }}
         />
       </div>
     )}
   />
-)
+);
